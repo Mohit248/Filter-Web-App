@@ -5,6 +5,7 @@ function preload(){
 function setup(){
     canvas = createCanvas(300,300);
     canvas.center();
+   
 }
 
 function draw(){
@@ -14,3 +15,4 @@ function draw(){
 function takeSnapshot(){
     save('my_Filter_Image.png');
 }
+
